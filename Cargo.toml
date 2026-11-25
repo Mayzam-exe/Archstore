@@ -1,0 +1,16 @@
+[package]
+name = "archstore"
+version = "2.0.0"
+edition = "2021"
+description = "An Arch Linux package store in your terminal — official repos + AUR"
+
+[dependencies]
+ratatui = "=0.30.0"
+reqwest = { version = "=0.12.28", default-features = false, features = ["blocking", "rustls-tls", "json"] }
+serde_json = "1"
+unicode-width = "0.2"
+libc = "0.2"
+
+[profile.release]
+opt-level = 2
+strip = true
