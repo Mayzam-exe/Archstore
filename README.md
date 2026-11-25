@@ -135,6 +135,3 @@ Issues and PRs welcome. Arch-specific quirks (mirrors, AUR helpers, unusual
 repo configurations) are especially worth reporting — test against a real
 `pacman` setup, not a mock.
 
-## Keywords
-
-arch-linux · tui · pacman · aur · rust · ratatui · package-manager · terminal · cli · linux
